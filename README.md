@@ -74,6 +74,30 @@ Raw data often contains errors. The following steps were taken to prepare the da
 * **Forecasting:** Using 2020–2023 trends to predict 2024 performance.
 * **Outlier Detection:** Spotting unusual order sizes using Standard Deviation.
 
+🚀 Future Roadmap: AI & Predictive Enhancements
+To evolve this project from Descriptive to Prescriptive analytics, the following AI-driven modules are proposed:
+
+1. Automated Outlier Detection (Machine Learning)
+Objective: Move beyond manual Standard Deviation checks to identify complex anomalies.
+
+Action: Implement an Isolation Forest model in Python to flag transactions where the relationship between Discount and Profit is mathematically "suspicious," helping to prevent revenue leakage.
+
+2. Time-Series Forecasting (2024 Predictions)
+Objective: Predict sales volume for the next two quarters.
+
+Action: Use the Prophet or ARIMA libraries to analyze the $19k+ profit trend from 2020–2023 and generate a baseline forecast for 2024, accounting for seasonal peaks in the Technology category.
+
+3. Customer Segmentation (K-Means Clustering)
+Objective: Create more granular personas than the standard "Consumer/Corporate" labels.
+
+Action: Use unsupervised learning to cluster customers based on Frequency of Purchase and Average Profit Margin, allowing for targeted marketing strategies for "High-Value" vs. "Underperforming" accounts.
+
+4. Natural Language Insights (LLM Integration)
+Objective: Enable non-technical stakeholders to query the data.
+
+Action: Integrate a GPT-based interface to allow users to ask questions like "Which region had the most volatile profit margins in Q3?" and receive a generated summary based on the Cleaned_Superstore.xlsx data.
+
+
 ---
 
 ## 👨‍💻 About Me
