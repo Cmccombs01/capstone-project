@@ -98,6 +98,9 @@ Objective: Enable non-technical stakeholders to query the data.
 Action: Integrate a GPT-based interface to allow users to ask questions like "Which region had the most volatile profit margins in Q3?" and receive a generated summary based on the Cleaned_Superstore.xlsx data.
 
 
+🧠 Technical Implementation: Anomaly DetectionTo address the "Operational Risk" identified in the initial analysis, I have outlined a plan to implement an Isolation Forest algorithm.Why Isolation Forest?Unlike traditional methods that look for outliers by defining what is "normal," an Isolation Forest works by isolating anomalies.The Math: The algorithm builds multiple decision trees. Since anomalies are "few and far different," they require fewer splits to be isolated in a tree compared to normal points.The Logic: If a data point (like a $20,000 sale with a 90% discount) is isolated in only 3-4 "branches," it is assigned an Anomaly Score close to 1.Implementation WorkflowFeature Selection: We feed the model Sales, Profit, and Discount as our primary vectors.Contamination Parameter: We set a contamination rate (e.g., $0.05$), telling the model we expect roughly 5% of our Superstore data to be "suspicious."Visualization: Using a scatter plot, we can visualize the "Decision Boundary"—the mathematical line where the AI decides a transaction transitions from "Standard" to "Anomaly."
+
+
 ---
 
 ## 👨‍💻 About Me
