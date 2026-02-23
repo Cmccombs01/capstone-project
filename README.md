@@ -103,10 +103,13 @@ Action: Integrate a GPT-based interface to allow users to ask questions like "Wh
 ## 👨‍💻 About Me
 I am an aspiring Data Analyst passionate about uncovering the stories hidden within data. With a strong foundation in **Excel**, **SQL**, and **Data Visualization**, I focus on building projects that solve real-world business problems.
 
-* **Core Skills:** Data Cleaning, Statistical Analysis, Dashboard Design.
-* **Currently Learning:** Python for advanced automation and Machine Learning.
-* **Goal:** To help organizations make smarter decisions through data-driven insights.
+Data Analysis: Exploratory Data Analysis (EDA), Time-Series Forecasting, and Statistical Modeling.
 
+Technical Stack: Advanced Excel (Pivot Tables, Statistical Functions), Python (Pandas, Scikit-Learn), and SQL.
+
+Machine Learning: Anomaly Detection (Isolation Forest), Clustering (K-Means), and Predictive Analytics.
+
+Visualization: Tableau Dashboard Design, Data Storytelling, and KPI Reporting.
 📫 **Let's Connect:**
 * [Portfolio / GitHub](https://github.com/Cmccombs01)
 * [LinkedIn Profile](www.linkedin.com/in/caleb-mccombs-850335237)
