@@ -8,6 +8,17 @@ https://public.tableau.com/shared/MYJ6MPHSW?:display_count=n&:origin=viz_share_l
 ## 📄 Overview
 This project analyzes transactional sales data from a fictional retail Superstore to identify drivers of profitability and sales performance. The dataset spans **January 2020 to October 2023**, covering consumer, corporate, and home office segments.
 
+📈 Sales Performance & Revenue Analytics
+A comprehensive financial analysis project tracking over $19k+ in historical profit trends from 2020-2023 to identify key growth drivers and seasonal variances.
+
+Core Capabilities:
+
+Financial Trend Analysis: Cleaned and processed multi-year sales data to extract actionable insights regarding revenue generation and product performance.
+
+Data Visualization: Built visual dashboards to translate raw financial data into clear, executive-level business intelligence.
+
+Tech Stack: Python (Pandas/Matplotlib), Financial Forecasting, Data Cleaning, ROI Tracking.
+
 The goal of this analysis was to move beyond raw numbers and provide actionable insights into:
 * **Profitability:** Which categories and regions yield the highest margins?
 * **Operational Risk:** Identifying volatile sales regions using statistical dispersion.
